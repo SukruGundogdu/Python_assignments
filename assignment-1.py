@@ -11,15 +11,13 @@ ______________________________________________________________________________
 
 
 
-name = "Sukru"
+name = "Joseph"
 
-your_password = "W@12"
-
-info = input("ilk harfi buyuk digerleri kucuk olacak sekilde isminizi giriniz: ")
+info = input("isminizi giriniz: ").title()
 
 if info == name:
 
-    print(f"Hello, {info}! The password is : {your_password}")
+    print(f"Hello, {info}! The password is : W@12")
 
 else:
 

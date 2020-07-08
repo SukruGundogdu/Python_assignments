@@ -17,21 +17,14 @@ Set a logical algorithm using boolean logic operators (and/or) and use if-statem
 
 _______________________________________________
 
-age = int(input("Are you a cigarette addict older than 75 years old? just write your age in numbers : "))
+age = str(input("Are you a cigarette addict older than 75 years old? (Yes/No) : ")).title().strip()
 
-chronic = input("Do you have a severe chronic disease? write yes or no: ")
+chronic = str(input("Do you have a severe chronic disease? (Yes/No): ")).title().strip()
 
-immune = input("Is your immune system too weak? write yes or no: ")
+immune = str(input("Is your immune system too weak? (Yes/No): ")).title().strip()
 
-
-
-yes = True
-
-no = False
-
-risk = (age > 75) or (chronic == yes) or (immune == yes)
-
-if risk == True:
+risk = age or chronic or immune
+if risk == "Yes":
 
     print("You are in risky group")
 
