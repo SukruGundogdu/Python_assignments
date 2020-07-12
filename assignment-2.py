@@ -17,7 +17,11 @@ Set a logical algorithm using boolean logic operators (and/or) and use if-statem
 
 _______________________________________________
 
+<<<<<<< HEAD
 age = str(input("Are you a cigarette addict older than 75 years old? (Yes/No) : ")).title().strip()
+=======
+    age = str(input("Are you a cigarette addict older than 75 years old? (Yes/No) : ")).title().strip()
+>>>>>>> 0709d6842e28e43c19d2a4df61d3dfa62abdb611
 
 chronic = str(input("Do you have a severe chronic disease? (Yes/No): ")).title().strip()
 
